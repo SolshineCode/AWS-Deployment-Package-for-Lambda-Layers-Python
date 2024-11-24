@@ -128,5 +128,5 @@ with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
 print(f"Deployment package created: {zip_path}")
 
 # Step 6: Clean up
-shutil.rmtree(package_dir)
+shutil.rmtree(layer_dir)
 print("Cleaned up package directory")
